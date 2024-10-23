@@ -1,0 +1,30 @@
+.profile {
+    background-color: #fff;            /* Set a background color for the profile section */
+    padding: 30px;                     /* Add padding for spacing */
+    border-radius: 10px;               /* Rounded corners for the profile section */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;                /* Center align text */
+    margin: 20px 0;                   /* Space above and below the profile section */
+}
+
+.profile-pic {
+    width: 150px;                      /* Set the width for the profile picture */
+    height: 150px;                     /* Set the height for the profile picture */
+    border-radius: 50%;                /* Make the image circular */
+    object-fit: cover;                 /* Maintain aspect ratio */
+    margin-bottom: 20px;               /* Space between image and text */
+    border: 2px solid #6b5b95;         /* Optional: Add a border color */
+}
+
+.profile h2 {
+    font-size: 28px;                   /* Font size for the heading */
+    margin: 10px 0;                    /* Spacing around the heading */
+    color: #6b5b95;                    /* Heading color */
+}
+
+.profile p {
+    font-size: 16px;                   /* Font size for the paragraph text */
+    color: #333;                       /* Text color */
+    max-width: 600px;                 /* Optional: Limit the width of the paragraph */
+    line-height: 1.5;                  /* Improve readability with line height */
+}
