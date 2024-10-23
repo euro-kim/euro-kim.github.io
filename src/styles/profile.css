@@ -6,11 +6,23 @@
     text-align: center;                /* Center align text */
     margin: 20px 0;                   /* Space above and below the profile section */
 }
-
 .profile-container {
-    display: flex;                     /* Use flexbox for layout */
-    flex-direction: column;            /* Stack items vertically */
-    align-items: center;               /* Center items horizontally */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+}
+
+.profile-container-pic {
+    width: 150px; /* Set the width for the profile-container picture */
+    height: 150px; /* Set the height for the profile-container picture */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Spacing between image and text */
+}
+
+.profile-container p {
+    font-size: 16px;
+    color: #333; /* Text color */
 }
 
 .profile-pic {
