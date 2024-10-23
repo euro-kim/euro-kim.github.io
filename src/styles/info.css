@@ -1,6 +1,7 @@
 .info {
     padding: 40px 20px;
     margin-top: 0px;
+    background: transparent;      /* Dark background for the section */
 }
 
 .info-grid {
@@ -10,14 +11,17 @@
 }
 
 .info-item {
-    background: white;
+    background: #1e1e1e;            /* Dark background for the grid items */
     padding: 20px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05), /* Soft light shadow for depth */
+                inset 0 0 10px rgba(0, 0, 0, 0.5);   /* Inner shadow for a "cut-out" effect */
     border-radius: 8px;
     transition: background-color 0.3s, transform 0.3s;
     font-size: 16px;
+    color: #e0e0e0;                 /* Light grey text */
 }
 
 .info-item:hover {
     transform: translateY(-2px);
+    background-color: #2a2a2a;       /* Slightly lighter on hover for emphasis */
 }

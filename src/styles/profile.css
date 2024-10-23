@@ -1,14 +1,22 @@
-.profile-container {
+.profile {
+    padding: 40px 20px;
+    align-items: center;
+}
+.profile h1 {
+    text-align: center;
+}
+.profile p {
+    text-align: center;
+}
 
+.profile-container {
     display: flex;
+    margin: auto;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center align items */
 }
 
-.profile-container p {
-    font-size: 16px;
-    color: #333; /* Text color */
-}
+
 
 .profile-pic {
     width: 150px;                      /* Set the width for the profile picture */

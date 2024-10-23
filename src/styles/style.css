@@ -5,9 +5,10 @@
 }
 
 body {
+    margin-top: 80px;
     font-family: 'Roboto', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #000;      /* Set body background to black */
+    color: #e0e0e0;              /* Lighter grey text for readability */
 }
 
 .container {
@@ -19,17 +20,45 @@ body {
 
 h1 {
     font-size: 3em;
+    color: #ffffff;              /* White for main headings */
 }
 
 h2 {
     font-size: 2em;
     margin: 20px 0;
+    color: #f0f0f0;              /* Light grey for subheadings */
 }
 
 .about {
-    background: white;
+    background-color: #1a1a1a;   /* Dark grey background for sections */
     padding: 40px 20px;
+    border-radius: 8px;          /* Optional: Rounded corners for sections */
+    color: #d0d0d0;              /* Light grey text within section */
 }
 
+.about-container p {
+    color: #d0d0d0;              /* Light grey text inside the about section */
+}
 
+.footer {
+    background: linear-gradient(135deg, #4b3c72, #d19042); /* Darker gradient */
+    color: #f0f0f0;              /* Light grey text */
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #333;   /* Dark border for separation */
+}
 
+.footer-content p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #e0e0e0;              /* Slightly lighter grey for footer text */
+}
+
+.footer a {
+    color: #feb236;              /* Accent color for links */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #d19042;              /* Darker hover color for links */
+}

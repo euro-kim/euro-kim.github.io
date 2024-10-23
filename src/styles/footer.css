@@ -1,30 +1,24 @@
 .footer {
-    background: linear-gradient(135deg, #6b5b95, #feb236);
-    color: white;
-    padding: 20px;
+    background: transparent; 
+    /* Diagonal gradient with opacity for depth */
+    color: #f0f0f0;               /* Light grey text for better contrast */
+    padding: 10px;                /* Slightly increased padding */
     text-align: center;
-}
-
-.footer-content {
-    margin-bottom: 20px;
-}
-
-.footer-content h2 {
-    margin: 0;
-    font-size: 24px;
+    border-top: 1px solid #333;   /* Optional: A dark border at the top */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
 }
 
 .footer-content p {
     margin: 10px 0;
     font-size: 16px;
+    color: #e0e0e0;               /* Slightly lighter grey for paragraph text */
 }
 
-.social-icons a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
+.footer a {
+    color: #f0f0f0;               /* Links can have light color */
+    text-decoration: none;        /* Remove underline from links */
 }
 
-.social-icons a:hover {
-    text-decoration: underline;
+.footer a:hover {
+    color: #b089ea;               /* Highlight link on hover with a lighter purple */
 }
