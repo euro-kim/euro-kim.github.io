@@ -16,14 +16,31 @@ header {
     font-size: 24px;
     color: #dcdcdc;            /* Slightly off-white for the title */
 }
-
-.social-icons a {
-    margin: 0 10px;
-    color: #9c6edb;            /* Purple accent color for social media icons */
-    text-decoration: none;
+ul {
+    list-style-type: none;  /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;  /* Align items horizontally */
+    justify-content: space-around;  /* Even spacing between items */
 }
 
-.social-icons a:hover {
-    text-decoration: underline;
-    color: #b089ea;            /* Slightly lighter purple on hover */
+ul li {
+    margin: 0 15px;  /* Space between each list item */
 }
+
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;  /* Remove underline */
+    color: white;  /* White text for contrast */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;  /* Smooth transition for hover */
+}
+
+ul li a:hover {
+    color: #feb236;  /* Accent text color on hover */
+    transform: scale(1.1);  /* Enlarge the text by 10% */
+}
+
+
