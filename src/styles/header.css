@@ -41,4 +41,35 @@ ul li a:hover {
     transform: scale(1.15);  /* Enlarge the text by 10% */
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header .container h2 {
+        font-size: 20px;
+    }
+
+    ul {
+        flex-direction: column;  /* Stack navigation items vertically */
+    }
+
+    ul li {
+        margin: 10px 0;  /* Add spacing between items vertically */
+    }
+
+    ul li a {
+        padding: 8px 16px;  /* Adjust padding for mobile */
+        font-size: 14px;    /* Slightly smaller text size */
+    }
+}
+
+@media (max-width: 480px) {
+    .header .container h2 {
+        font-size: 18px;
+    }
+
+    ul li a {
+        padding: 6px 14px;
+        font-size: 12px;  /* Smaller text for compact screens */
+    }
+}
+
 
