@@ -1,8 +1,6 @@
 header {
-    background: linear-gradient(135deg, rgba(30, 30, 30, 1), rgba(75, 60, 114, 1), rgba(30, 30, 30, 0.8), rgba(50, 30, 70, 0.8)); 
     color: #f0f0f0;
     text-align: center;
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -10,10 +8,14 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.container h2 {
-    margin: 0;
-    font-size: 24px;
-    color: #dcdcdc;
+header .container{
+
+    background: conic-gradient(rgba(30, 30, 30, 1) 0%, rgba(75, 60, 114, 1) 25%, rgba(30, 30, 30, 0.8) 50%, rgba(50, 30, 70, 0.8) 100%);
+
+    /* background: radial-gradient(circle, rgba(30, 30, 30, 1) 0%, rgba(75, 60, 114, 1) 40%, rgba(30, 30, 30, 0.8) 70%, rgba(50, 30, 70, 0.8) 100%); */
+    /* background: linear-gradient(135deg, rgba(30, 30, 30, 1), rgba(75, 60, 114, 1), rgba(30, 30, 30, 0.8), rgba(50, 30, 70, 0.8, ));  */
+    width:40%;
+    border-radius: 100px;
 }
 
 /* Styles for header navigation */
@@ -31,7 +33,7 @@ header {
 
 .header-nav ul li a {
     display: block;
-    padding: 5px 20px;
+    padding: 0px 20px;
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -48,16 +50,12 @@ header {
         font-size: 20px;
     }
 
-    .header-nav ul {
-        flex-direction: column;  /* Stack navigation items vertically */
-    }
-
     .header-nav ul li {
-        margin: 10px 0;
+        margin: 5px 0;
     }
 
     .header-nav ul li a {
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
@@ -68,6 +66,6 @@ header {
 
     .header-nav ul li a {
         padding: 6px 14px;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
