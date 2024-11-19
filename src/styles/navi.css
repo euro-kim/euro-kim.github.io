@@ -1,12 +1,11 @@
 /* Side navigation panel */
 .navi {
     position: fixed;
-    top: 50%;
+    top: 60%;
     right: 0;  /* Position on the right side */
     transform: translateY(-50%);  /* Center vertically */
     background-color: transparent;
     padding: 20px;
-    width: 200px;
     border-radius: 8px 0 0 8px;  /* Rounded corners on the left side */
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
     display: flex;
@@ -20,7 +19,6 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-    width: 100%;  /* Full width of the panel */
 }
 
 .navi ul li {
@@ -32,14 +30,16 @@
     color: #f0f0f0;
     padding: 10px 15px;
     display: block;
-    width: 100%;
     text-align: center;
     border-radius: 4px;
     transition: background 0.3s, transform 0.2s ease;
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside each link */
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
 }
 
 .navi ul li a:hover {
-    transform: translateX(-5px);  /* Slight left slide on hover */
+    transform: translateX(-6px);  /* Slight left slide on hover */
 }
 
 /* Hide side navigation on mobile */

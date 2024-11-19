@@ -1,22 +1,58 @@
-.profile {
-    padding: 40px 20px;
-    align-items: center;
-}
-.profile h1 {
-    text-align: center;
-}
-.profile p {
-    text-align: center;
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Section Styling */
+#profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    height: 90vh;
+    box-sizing: border-box;
+}
+
+/* Profile Container */
 .profile-container {
     display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures text and image are spaced apart */
+    width: 80%;
     margin: auto;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center align items */
+    max-width: 1200px;
+    flex-direction: row; /* Items are side-by-side */
 }
 
+/* Left Side: Introduction */
+.profile-intro {
+    flex: 1;
+    text-align: left; /* Aligns text to the left */
+    max-width: 50%;
+}
 
+.intro-text {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.profile-description {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    opacity: 0.8;
+}
+
+/* Right Side: Profile Picture */
+.profile-pic-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .profile-pic {
     width: 150px;                      /* Set the width for the profile picture */
@@ -26,4 +62,22 @@
     margin-top: 10px;
     margin-bottom: 10px;               /* Space between image and text */
     border: 2px solid #6b5b95;         /* Optional: Add a border color */
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive Design for Smaller Screens */
+@media screen and (max-width: 768px) {
+    .profile-container {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center;
+    }
+
+    .profile-intro {
+        text-align: center; /* Center text for smaller screens */
+        max-width: 100%;
+    }
 }

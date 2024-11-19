@@ -16,7 +16,10 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="header-container">
+            <div class="logo">
+                <a href="/index.html"><img src="/public/logo.png" alt="Logo" class="logo-img"></a>
+            </div>
             <nav class="header-nav">
                 <ul>
                     <li><a href="/index.html">Home</a></li>
@@ -27,7 +30,6 @@
     </header>
     
     <nav class="navi">
-        <h3 style="text-decoration: underline;">Bookmarks</h3>
         <ul>
             <li><a href="#profile">Profile</a></li>
             <li><a href="#about">About Me</a></li>
@@ -35,12 +37,16 @@
         </ul>
     </nav>
 
-    <section id='profile' class="profile">
+    <section id="profile">
         <div class="profile-container">
-            <img src="/public/profile-pic.png" alt="Pic" class="profile-pic">
+            <div class="profile-pic-container">
+                <img src="/public/profile-pic.png" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="profile-intro">
+                <h1 class="intro-text">Hi, I'm Euro Kim.</h1>
+                <p class="profile-description">Unemployed | Useless | Student</p>
+            </div>
         </div>
-        <h1>Euro Kim</h1>
-        <p>Unemployed | Useless | Student</p>
     </section>
 
     <section id="about" class="about">
