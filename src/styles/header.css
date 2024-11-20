@@ -2,7 +2,7 @@
 header {
     display: flex;
     justify-content: center; /* Center header content horizontally */
-    padding: 2rem 4rem; /* Padding around the header */
+    padding: 1rem 2rem; /* Padding around the header */
 }
 
 /* Header Container */
@@ -22,7 +22,7 @@ header {
 }
 
 .logo-img {
-    width: 50px; /* Adjust size of the logo */
+    width: 150px; /* Adjust size of the logo */
     height: auto; /* Maintain aspect ratio */
 }
 
