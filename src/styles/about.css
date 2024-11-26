@@ -44,5 +44,5 @@
     border-radius: 50%;             /* Circular profile picture */
     object-fit: cover;              /* Maintain aspect ratio */
     margin-bottom: 20px;
-    border: 2px solid #6b5b95;      /* Accent border */
+    border: 2px solid #d268ff;      /* Accent border */
 }
