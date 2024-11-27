@@ -1,7 +1,7 @@
 /* Side navigation panel */
 .navi {
     position: fixed;
-    top: 60%;
+    top: 50%;
     left: 0;  /* Position on the right side */
     transform: translateY(-50%);  /* Center vertically */
     background-color: transparent;

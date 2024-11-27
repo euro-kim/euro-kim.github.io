@@ -37,12 +37,3 @@
     font-size: 16px;
     color: #d0d0d0;                 /* Light grey for paragraph text */
 }
-
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;             /* Circular profile picture */
-    object-fit: cover;              /* Maintain aspect ratio */
-    margin-bottom: 20px;
-    border: 2px solid #d268ff;      /* Accent border */
-}
