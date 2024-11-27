@@ -2,7 +2,7 @@
 .navi {
     position: fixed;
     top: 60%;
-    right: 0;  /* Position on the right side */
+    left: 0;  /* Position on the right side */
     transform: translateY(-50%);  /* Center vertically */
     background-color: transparent;
     padding: 20px;
@@ -39,7 +39,7 @@
 }
 
 .navi ul li a:hover {
-    transform: translateX(-6px);  /* Slight left slide on hover */
+    transform: translateX(6px);  /* Slight left slide on hover */
 }
 
 /* Hide side navigation on mobile */
