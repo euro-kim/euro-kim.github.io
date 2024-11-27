@@ -79,7 +79,7 @@ h1 {
 h2 {
     font-size: 2em;
     margin: 20px 0;
-    font-weight: 300;  /* More specific selector */
+    font-weight: 400;  /* More specific selector */
     color: #f0f0f0;              /* Light grey for subheadings */
 }
 
