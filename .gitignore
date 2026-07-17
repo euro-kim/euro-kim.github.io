@@ -1,0 +1,6 @@
+# Local preview helpers
+.http-server.log
+
+# Local environment config
+.env
+public/site-config.js

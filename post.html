@@ -4,27 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posts</title>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)">
+    <link rel="icon" href="/public/logo.svg" type="image/svg+xml">
+    <link rel="alternate icon" href="/public/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/public/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="/src/styles/style.css">
     <link rel="stylesheet" href="/src/styles/header.css">
     <link rel="stylesheet" href="/src/styles/profile.css">
     <link rel="stylesheet" href="/src/styles/about.css">
     <link rel="stylesheet" href="/src/styles/footer.css">
     <link rel="stylesheet" href="/src/styles/info.css">
+    <script src="/public/site-config.js"></script>
+    <script defer src="/src/scripts/social-links.js"></script>
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo">
-                <a href="/index.html"><img src="/public/logo.png" alt="Logo" class="logo-img"></a>
+                <a href="/index.html"><img src="/public/logo.svg" alt="Euro Kim logo" class="logo-img"></a>
             </div>
-            <nav class="header-nav">
+            <nav class="header-nav" aria-label="Social links">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/post.html">Posts</a></li>
-                    <li><a href="http://blog.euro.kim">Blog</a></li>
+                    <li>
+                        <a id="github-link" class="nav-icon-link" href="#" target="_blank" rel="me noopener noreferrer" aria-label="GitHub profile">
+                            <img src="/public/icons/github.svg" alt="" class="nav-icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a id="linkedin-link" class="nav-icon-link" href="#" target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn profile">
+                            <img src="/public/icons/linkedin.svg" alt="" class="nav-icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a id="email-link" class="nav-icon-link" href="#" aria-label="Send email">
+                            <img src="/public/icons/mail.svg" alt="" class="nav-icon">
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
