@@ -4,115 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Euro Kim</title>
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)">
+    <meta name="description" content="Euro Kim is a graduate student in AI working with the mathematics department.">
+    <meta name="theme-color" content="#f5f0e6">
     <link rel="icon" href="/public/logo.svg" type="image/svg+xml">
     <link rel="alternate icon" href="/public/favicon.ico" sizes="any">
     <link rel="apple-touch-icon" href="/public/logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/styles/style.css">
-    <link rel="stylesheet" href="src/styles/header.css">
-    <link rel="stylesheet" href="src/styles/profile.css">
-    <link rel="stylesheet" href="src/styles/about.css">
-    <link rel="stylesheet" href="src/styles/footer.css">
-    <link rel="stylesheet" href="src/styles/info.css">
-    <link rel="stylesheet" href="src/styles/navi.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500;1,600&family=STIX+Two+Text:wght@400;500&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/styles/style.css">
     <script src="/public/site-config.js"></script>
     <script defer src="/src/scripts/social-links.js"></script>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <a href="/index.html"><img src="/public/logo.svg" alt="Euro Kim logo" class="logo-img"></a>
-            </div>
-            <nav class="header-nav" aria-label="Social links">
-                <ul>
-                    <li>
-                        <a id="github-link" class="nav-icon-link" href="#" target="_blank" rel="me noopener noreferrer" aria-label="GitHub profile">
-                            <img src="/public/icons/github.svg" alt="" class="nav-icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a id="linkedin-link" class="nav-icon-link" href="#" target="_blank" rel="me noopener noreferrer" aria-label="LinkedIn profile">
-                            <img src="/public/icons/linkedin.svg" alt="" class="nav-icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a id="email-link" class="nav-icon-link" href="#" aria-label="Send email">
-                            <img src="/public/icons/mail.svg" alt="" class="nav-icon">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    
-    <nav class="navi">
-        <ul>
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#info">Info</a></li>
-        </ul>
-    </nav>
+    <div class="page-frame">
+        <div class="paper-page">
+            <header class="masthead">
+                <div class="masthead-topline">
+                    <p class="kicker">Academic Profile</p>
+                    <div class="masthead-meta">
+                        <a id="linkedin-link" href="#" target="_blank" rel="me noopener noreferrer">LinkedIn</a>
+                        <a id="github-link" href="#" target="_blank" rel="me noopener noreferrer">Github</a>
+                        <a id="email-link" href="#">Email</a>
+                    </div>
+                </div>
+                <h1>Euro Kim</h1>
+                <div class="masthead-summary">
+                    <div class="masthead-copy">
+                        <p class="dek">
+                            AI & Mathematics
+                        </p>
+                        <p class="opening-paragraph current-direction-paragraph">
+                            I am a first-year graduate student at Seoul National University <a href="https://gsai.snu.ac.kr/">Graduate School of AI</a>, advised by Prof. <a href="https://dabeenl.github.io/">Dabeen Lee</a>.
+                            Due to the interdisciplinary nature of my faculty, I also work as a Research Assistant in the <a href="https://math.snu.ac.kr/">Department of Mathematical Sciences</a>.
+                            My study focus on reinforcement learning. Currently, my interest lies in optimizing RL with state, including stateful bandits and MDPs. 
+                        </p>
+                    </div>
+                    <figure class="profile-note">
+                        <span class="paper-clip" aria-hidden="true"></span>
+                        <img src="/public/profile-pic.png" alt="Portrait of Euro Kim">
+                    </figure>
+                </div>
+                <nav class="top-nav" aria-label="Section navigation">
+                    <p class="nav-label">Contents</p>
+                    <div class="top-nav-links">
+                        <a href="#education"><span>I</span> Education</a>
+                        <a href="#experience"><span>II</span> Experience</a>
+                        <a href="#honors"><span>III</span> Honors &amp; Awards</a>
+                    </div>
+                </nav>
+            </header>
 
-    <section id="profile">
-        <div class="profile-container">
-            <div class="profile-pic-container">
-                <img src="https://avatars.githubusercontent.com/u/175794022?v=4" alt="Profile Picture" class="profile-pic">
-            </div>
-            <div class="profile-intro">
-                <h1 class="intro-text">Hi, I'm Euro Kim.</h1>
-                <p class="profile-description">wondering the world</p>
-            </div>
-        </div>
-    </section>
+            <main class="article-layout">
+                <section id="education" class="folio-section">
+                    <div class="section-marker">
+                        <p class="section-count">I</p>
+                        <p class="section-label">Education</p>
+                    </div>
+                    <div class="section-sheet">
+                        <div class="entry-list">
+                            <article class="entry">
+                                <div class="entry-body">
+                                    <div class="entry-heading">
+                                        <h3>IPAI, Seoul National University</h3>
+                                        <p class="entry-location">Seoul, Korea</p>
+                                    </div>
+                                    <div class="entry-subhead">
+                                        <p class="entry-role">Master of Science in AI</p>
+                                        <p class="entry-date">2026 - Present</p>
+                                    </div>
+                                </div>
+                            </article>
+                            <article class="entry">
+                                <div class="entry-body">
+                                    <div class="entry-heading">
+                                        <h3>DEPT. of Economics, Seoul National University</h3>
+                                        <p class="entry-location">Seoul, Korea</p>
+                                    </div>
+                                    <div class="entry-subhead">
+                                        <p class="entry-role">Bachelor of Arts in Economics</p>
+                                        <p class="entry-date">2020 - 2025</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-container">
-                <p> I'm a developer as well as many other things. Feel free to reach out.</p>
-            </div>
-        </div>
-    </section>
+                <section id="experience" class="folio-section">
+                    <div class="section-marker">
+                        <p class="section-count">II</p>
+                        <p class="section-label">Experience</p>
+                    </div>
+                    <div class="section-sheet">
+                        <div class="entry-list">
+                            <article class="entry">
+                                <div class="entry-body">
+                                    <div class="entry-heading">
+                                        <h3>DEPT. of Mathematical Sciences, Seoul National University</h3>
+                                        <p class="entry-location">Seoul, Korea</p>
+                                    </div>
+                                    <div class="entry-subhead">
+                                        <p class="entry-role">Graduate Research Assistant</p>
+                                        <p class="entry-date">2026 - Present</p>
+                                    </div>
+                                    <p>Supporting academic and technical work in an environment shaped by proof, precision, and exposition.</p>
+                                </div>
+                            </article>
+                            <article class="entry">
+                                <div class="entry-body">
+                                    <div class="entry-heading">
+                                        <h3>DEPT. of Mathematical Sciences, Seoul National University</h3>
+                                        <p class="entry-location">Seoul, Korea (hybrid)</p>
+                                    </div>
+                                    <div class="entry-subhead">
+                                        <p class="entry-role">Undergraduate Research Assistant</p>
+                                        <p class="entry-date">Jul 2021 - Aug 2021</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
 
-    <section id='info' class="info">
-        <div class="container">
-            <h2>Info</h2>
-            <div class="info-grid">
-                <div class="info-item">
-                    <h3>🎓Education</h3>
-                    <p>Bachelor of Economics</p>
-                    <p>Seoul National University, 2025</p>
-                </div>
-                <div class="info-item">
-                    <h3>🌐Languages</h3>
-                    <p>Korean, English</p>
-                </div>
-                <div class="info-item">
-                    <h3>📧Contacts</h3>
-                    <p>eurokim@euro.kim</p>
-                </div>
-                <div class="info-item">
-                    <h3>📍Location</h3>
-                    <p>Seoul, Replublic of Korea</p>
-                    <p>GMT+9</p>
-                </div>
-            </div>
+                <section id="honors" class="folio-section">
+                    <div class="section-marker">
+                        <p class="section-count">III</p>
+                        <p class="section-label">Honors &amp; Awards</p>
+                    </div>
+                    <div class="section-sheet">
+                        <div class="entry-list">
+                            <article class="entry">
+                                <div class="entry-body">
+                                    <div class="entry-heading">
+                                        <h3>Outstanding Student Autonomous Research</h3>
+                                        <p class="entry-date">Feb 2025</p>
+                                    </div>
+                                    <p class="award-meta">12th Place <span aria-hidden="true">&middot;</span> Issued by Seoul National University, <a href="https://snuc.snu.ac.kr/">Faculty of Liberal Education</a></p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+
+            </main>
         </div>
-    </section>
-    
-    <footer class="footer">
-        <div id='contact' class="social-icons">
-            <a href="https://github.com/euro-kim">Github</a>
-            <a>|</a>
-            <a href="http://blog.euro.kim">Blog</a>
-        </div>
-        <div class="footer-content">
-            <p>&copy; 2024 Euro Kim. All rights reserved.</p>
-        </div>
-    </footer>
-    
+    </div>
 </body>
 </html>
